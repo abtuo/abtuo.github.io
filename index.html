@@ -14,8 +14,6 @@
 
 <html lang="en"
   
-    data-mode="dark"
-  
 >
 
   <!--
@@ -56,7 +54,7 @@
 <meta property="twitter:title" content="Aboubacar Tuo" />
 <meta name="twitter:site" content="@twitter_username" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"A minimal, responsive, and powerful Jekyll theme for presenting professional writing.","headline":"Aboubacar Tuo","name":"Aboubacar tuo","sameAs":["https://twitter.com/username","https://github.com/abtuo","https://scholar.google.com/citations?user=5fE1oWwAAAAJ&hl=en","https://www.linkedin.com/in/username"],"url":"http://localhost:4000/"}</script>
+{"@context":"https://schema.org","@type":"WebSite","description":"A minimal, responsive, and powerful Jekyll theme for presenting professional writing.","headline":"Aboubacar Tuo","name":"Aboubacar Tuo","sameAs":["https://github.com/abtuo","https://www.linkedin.com/in/abtuo"],"url":"http://localhost:4000/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
@@ -112,7 +110,12 @@
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.11.2/css/all.min.css">
 
+    <!-- Academicons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
   <link rel="stylesheet" href="/assets/css/style.css">
+  
+
 
   
 
@@ -121,6 +124,137 @@
   <!-- JavaScript -->
 
   <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+
+  
+    <!--
+  Switch the mode between dark and light.
+-->
+
+<script type="text/javascript">
+  class ModeToggle {
+    static get MODE_KEY() { return "mode"; }
+    static get MODE_ATTR() { return "data-mode"; }
+    static get DARK_MODE() { return "dark"; }
+    static get LIGHT_MODE() { return "light"; }
+    static get ID() { return "mode-toggle"; }
+
+    constructor() {
+      if (this.hasMode) {
+        if (this.isDarkMode) {
+          if (!this.isSysDarkPrefer) {
+            this.setDark();
+          }
+        } else {
+          if (this.isSysDarkPrefer) {
+            this.setLight();
+          }
+        }
+      }
+
+      let self = this;
+
+      /* always follow the system prefers */
+      this.sysDarkPrefers.addEventListener("change", () => {
+        if (self.hasMode) {
+          if (self.isDarkMode) {
+            if (!self.isSysDarkPrefer) {
+              self.setDark();
+            }
+
+          } else {
+            if (self.isSysDarkPrefer) {
+              self.setLight();
+            }
+          }
+
+          self.clearMode();
+        }
+
+        self.notify();
+
+      });
+
+    } /* constructor() */
+
+    get sysDarkPrefers() { return window.matchMedia("(prefers-color-scheme: dark)"); }
+
+    get isSysDarkPrefer() { return this.sysDarkPrefers.matches; }
+
+    get isDarkMode() { return this.mode === ModeToggle.DARK_MODE; }
+
+    get isLightMode() { return this.mode === ModeToggle.LIGHT_MODE; }
+
+    get hasMode() { return this.mode != null; }
+
+    get mode() { return sessionStorage.getItem(ModeToggle.MODE_KEY); }
+
+    /* get the current mode on screen */
+    get modeStatus() {
+      if (this.isDarkMode
+        || (!this.hasMode && this.isSysDarkPrefer)) {
+        return ModeToggle.DARK_MODE;
+      } else {
+        return ModeToggle.LIGHT_MODE;
+      }
+    }
+
+    setDark() {
+      $('html').attr(ModeToggle.MODE_ATTR, ModeToggle.DARK_MODE);
+      sessionStorage.setItem(ModeToggle.MODE_KEY, ModeToggle.DARK_MODE);
+    }
+
+    setLight() {
+      $('html').attr(ModeToggle.MODE_ATTR, ModeToggle.LIGHT_MODE);
+      sessionStorage.setItem(ModeToggle.MODE_KEY, ModeToggle.LIGHT_MODE);
+    }
+
+    clearMode() {
+      $('html').removeAttr(ModeToggle.MODE_ATTR);
+      sessionStorage.removeItem(ModeToggle.MODE_KEY);
+    }
+
+    /* Notify another plugins that the theme mode has changed */
+    notify() {
+      window.postMessage({
+        direction: ModeToggle.ID,
+        message: this.modeStatus
+      }, "*");
+    }
+
+  } /* ModeToggle */
+
+  const toggle = new ModeToggle();
+
+  function flipMode() {
+    if (toggle.hasMode) {
+      if (toggle.isSysDarkPrefer) {
+        if (toggle.isLightMode) {
+          toggle.clearMode();
+        } else {
+          toggle.setLight();
+        }
+
+      } else {
+        if (toggle.isDarkMode) {
+          toggle.clearMode();
+        } else {
+          toggle.setDark();
+        }
+      }
+
+    } else {
+      if (toggle.isSysDarkPrefer) {
+        toggle.setLight();
+      } else {
+        toggle.setDark();
+      }
+    }
+
+    toggle.notify();
+
+  } /* flipMode() */
+
+</script>
 
   
 </head>
@@ -146,7 +280,7 @@
     <div class="site-title mt-3">
       <a href="/">Aboubacar Tuo</a>
     </div>
-    <div class="site-subtitle font-italic">AI PhD student</div>
+    <div class="site-subtitle font-italic">AI PhD student </div>
 
   </div><!-- .profile-wrapper -->
 
@@ -189,6 +323,15 @@
     </li> <!-- .nav-item -->
     
     <li class="nav-item">
+      <a href="/resume/" class="nav-link">
+        <i class="fa-fw fas fa-user-graduate ml-xl-3 mr-xl-3 unloaded"></i>
+        
+
+        <span>RESUME</span>
+      </a>
+    </li> <!-- .nav-item -->
+    
+    <li class="nav-item">
       <a href="/about/" class="nav-link">
         <i class="fa-fw fas fa-info-circle ml-xl-3 mr-xl-3 unloaded"></i>
         
@@ -203,6 +346,25 @@
   <div class="sidebar-bottom mt-auto d-flex flex-wrap justify-content-center align-items-center">
 
     
+      <button class="mode-toggle btn" aria-label="Switch Mode">
+        <i class="fas fa-adjust"></i>
+      </button>
+
+      
+        <span class="icon-border"></span>
+      
+    
+
+    
+      
+
+      
+      <a href="
+          javascript:location.href = 'mailto:' + ['aboubacar.tuo','yahoo.fr'].join('@')" aria-label="email"
+        >
+        <i class="fas fa-envelope"></i>
+      </a>
+      
 
     
       
@@ -218,9 +380,9 @@
       
 
       
-      <a href="https://twitter.com/twitter_username" aria-label="twitter"
+      <a href="https://scholar.google.com/citations?user=5fE1oWwAAAAJ&hl=en" aria-label="google-scholar"
         target="_blank" rel="noopener">
-        <i class="fab fa-twitter"></i>
+        <i class="ai ai-google-scholar-square ai-3x"></i>
       </a>
       
 
@@ -228,10 +390,9 @@
       
 
       
-      <a href="
-          javascript:location.href = 'mailto:' + ['aboubacar.tuo','yahoo.fr'].join('@')" aria-label="email"
-        >
-        <i class="fas fa-envelope"></i>
+      <a href="https://www.linkedin.com/in/aboubacar-tuo-848237a5/" aria-label="linkedin"
+        target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
       </a>
       
 
@@ -525,7 +686,7 @@
     <div class="footer-left">
       <p class="mb-0">
         © 2022
-        <a href="https://twitter.com/username">Aboubacar tuo</a>.
+        <a href="https://github.com/abtuo">Aboubacar Tuo</a>.
         
         <span data-toggle="tooltip" data-placement="top"
           title="Except where otherwise noted, the blog posts on this site are licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) License by the author.">Some rights reserved.</span>
