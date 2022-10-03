@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Aboubacar Tuo</title>
   <subtitle>A minimal, responsive, and powerful Jekyll theme for presenting professional writing.</subtitle>
-  <updated>2022-10-03T16:56:41+02:00</updated>
+  <updated>2022-10-03T17:39:48+02:00</updated>
   <author>
     <name>Aboubacar Tuo</name>
     <uri>http://localhost:4000/</uri>
@@ -20,8 +20,8 @@
 
   
   <entry>
-    <title>Welcome to my  personal website</title>
-    <link href="http://localhost:4000/posts/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to my  personal website" />
+    <title>Bibliographie</title>
+    <link href="http://localhost:4000/posts/welcome-to-jekyll/" rel="alternate" type="text/html" title="Bibliographie" />
     <published>2022-09-30T14:15:21+02:00</published>
   
     <updated>2022-09-30T14:15:21+02:00</updated>
@@ -34,9 +34,7 @@
 
   
     
-    <category term="jekyll" />
-    
-    <category term="update" />
+    <category term="Biblio" />
     
   
 
