@@ -1,0 +1,11 @@
+Contenu :
+
+In natural language processing, identifying entities of interest (NER) in a sentence such as person, location, organization etc. requires labeled data. We need sentences labeled with entities of interest where the labeling of each sentence is done either manually or by some automated method (often using heuristics to create a noisy/weakly labeled data set). These labeled sentences are then used to train a model to recognize those entities as a supervised learning task.
+
+Pour n'importe quelle question, il est probable que quelqu'un ait écrit la réponse quelque part. La quantité de texte en langage naturel disponible sous forme électronique est vraiment stupéfiante et augmente chaque jour. Cependant, la complexité du langage naturel peut rendre très difficile l'accès aux informations contenues dans ce texte. L'état de l'art du traitement automatique des langues est encore loin de pouvoir construire des représentations générales de la signification à partir d'un texte illimité. Si, au contraire, nous concentrons nos efforts sur un ensemble limité de questions ou de "relations entre entités", telles que "où sont situées les différentes installations" ou "qui est employé par quelle société", nous pouvons faire des progrès significatifs. L'objectif de ce chapitre est de répondre aux questions suivantes :
+
+Comment construire un système qui extrait des données structurées, comme des tableaux, à partir de textes non structurés ?
+Quelles sont les méthodes robustes pour identifier les entités et les relations décrites dans un texte ?
+Quels corpus sont appropriés pour ce travail, et comment les utiliser pour l'entraînement et l'évaluation de nos modèles ?
+En cours de route, nous appliquerons les techniques des deux derniers chapitres aux problèmes de chunking et de reconnaissance d'entités nommées.
+
