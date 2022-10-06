@@ -11,13 +11,11 @@ const resource = [
   '/index.html',
   '/404.html',
   
-    '/categories/',
+    '/resume/',
   
     '/publications/',
   
     '/blog/',
-  
-    '/resume/',
   
     '/about/',
   
