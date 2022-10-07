@@ -1,0 +1,36 @@
+#  The contact options.
+
+-
+  type: email
+  icon: 'fas fa-envelope'
+  noblank: true            # open link in current tab
+
+-
+  type: github
+  icon: 'fab fa-github'
+#-
+#  type: twitter
+#  icon: 'fab fa-twitter'
+
+- 
+  type: google-scholar
+  icon: 'ai ai-google-scholar-square ai-3x'
+  url:  https://scholar.google.com/citations?user=5fE1oWwAAAAJ&hl=en
+
+# Uncomment and complete the url below to enable more contact options
+# -
+#   type: mastodon
+#   icon: 'fab fa-mastodon'   # icons powered by <https://fontawesome.com/>
+#   url:  ''                  # Fill with your mastodon account page
+-
+  type: linkedin
+  icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
+  url:  'https://www.linkedin.com/in/aboubacar-tuo-848237a5/'   # Fill with your Linkedin homepage
+# -
+#   type: stack-overflow
+#   icon: 'fab fa-stack-overflow'
+#   url:  ''                  # Fill with your stackoverflow homepage
+-
+  type: rss
+  icon: 'fas fa-rss'
+  noblank: true
