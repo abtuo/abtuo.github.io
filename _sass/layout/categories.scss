@@ -65,3 +65,181 @@
   -webkit-transform: rotate(-90deg); /* Safari 3-8 */
   transform: rotate(-90deg);
 }
+
+
+// modifs à partir d'ici...
+
+// Define defaults for each variable.
+$base-font-family: "Roboto", sans-serif !default;
+$base-font-size:   16px !default;
+$base-font-weight: 400 !default;
+
+$small-font-size:  $base-font-size * 0.875 !default; // 14px
+$middle-font-size: $base-font-size * 1.125 !default; // 18px
+$large-font-size:  $base-font-size * 1.25  !default; // 20px
+$huge-font-size:   $base-font-size * 2     !default; // 32px
+
+$base-line-height: 1.5 !default;
+
+$spacing-unit:     20px !default;
+
+// Width of the content area
+$content-width:    1600px !default;
+
+// Default color settings
+$text-color:        #333333;
+$text-second-color: #3F4650;
+$text-third-color:  #97AAC3;
+$background-color:  #f5f5f5;
+$wrapper-color:     #ffffff;
+$heart-color:       #fb866a;
+
+
+.wrapper {
+  position: relative;
+  max-width: none;
+  margin: auto auto;
+  padding: $spacing-unit * 2;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+
+  section {
+      margin-bottom: $spacing-unit / 4;
+
+      .section-title {
+          text-transform: uppercase;
+          font-size: $large-font-size;
+          font-weight: $base-font-weight * 1.25;
+          position: relative;
+          margin-top: 0;
+          margin-bottom: $spacing-unit / 4;
+          color: #0812aa;
+      }
+
+      .section-content {
+          .markdown {
+              ul,
+              ol {
+                  margin-bottom: $spacing-unit / 4;
+                  padding-inline-start: $spacing-unit;
+              }
+          }
+      }
+
+      .upper-row {
+          position: relative;
+          overflow: hidden;
+          margin-bottom: 2px;
+
+          .company,
+          .certificate,
+          .university {
+              font-weight: $base-font-weight * 1.75;
+          }
+
+          .role,
+          .authority,
+          .major {
+              font-style: italic;
+          }
+
+          .time,
+          .location,
+          .degree {
+              position: absolute;
+              right: 0;
+              top: 0;
+              color: $text-third-color;
+          }
+      }
+  }
+
+  .basic {
+      .avatar img {
+          float: right;
+          max-width: 100px;
+          margin-bottom: $spacing-unit;
+          border: 0px solid $wrapper-color;
+          box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+      }
+
+      .header {
+          .name {
+              font-size: $huge-font-size;
+              font-weight: $base-font-weight * 2,25;
+              margin-top: 0;
+              margin-bottom: $spacing-unit / 4;
+          }
+
+          .title {
+              color: $text-second-color;
+              font-size: $middle-font-size;
+              font-weight: $base-font-weight;
+              margin-top: 0;
+              margin-bottom: $spacing-unit / 4;
+          }
+
+          .contact ul {
+              margin-bottom: $spacing-unit / 4;
+
+              li {
+                  display: inline;
+                  white-space: nowrap;
+
+                  &:not(:last-child)::after {
+                      content: '|';
+                      margin: 0 0.25em;
+                  }
+              }
+          }
+      }
+  }
+
+  .projects {
+      .project {
+          font-weight: $base-font-weight * 1.75;
+          color: $text-color;
+          margin-bottom: 1px;
+      }
+  }
+
+  .skills {
+      .bar {
+          max-width: 80%;
+          --labels-size: 20%;
+      }
+  }
+
+  .publications {
+      .title {
+          font-weight: $base-font-weight * 1.75;
+          color: $text-color;
+          margin-bottom: 1px;
+      }
+
+      .authors {
+          font-style: italic;
+      }
+  }
+
+  .languages,
+  .interests {
+      ul {
+          margin-bottom: $spacing-unit / 4;
+
+          li {
+              display: inline;
+              white-space: nowrap;
+
+              &:not(:last-child)::after {
+                  content: '/';
+                  margin: 0 0.25em;
+              }
+          }
+      }
+  }
+}
+
+@import
+    "base",
+    "print"
+;

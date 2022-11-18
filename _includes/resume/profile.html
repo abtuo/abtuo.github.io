@@ -1,0 +1,14 @@
+{% assign profile = site.data.resume.profile %}
+{% if profile and profile.display %}
+<section class="profile">
+    <div class="section-title">
+        {{ profile.title }}
+    </div>
+
+    <div class="section-content">
+        <div class="markdown">
+            {{ profile.details | markdownify }}
+        </div>
+    </div>
+</section>
+{% endif %}
