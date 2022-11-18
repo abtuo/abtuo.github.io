@@ -13,9 +13,9 @@ const resource = [
   
     '/resume/',
   
-    '/publications/',
-  
     '/blog/',
+  
+    '/publications/',
   
     '/about/',
   

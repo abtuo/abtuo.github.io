@@ -9,3 +9,7 @@ Quelles sont les méthodes robustes pour identifier les entités et les relation
 Quels corpus sont appropriés pour ce travail, et comment les utiliser pour l'entraînement et l'évaluation de nos modèles ?
 En cours de route, nous appliquerons les techniques des deux derniers chapitres aux problèmes de chunking et de reconnaissance d'entités nommées.
 
+
+I am currently looking for a post-doc position (or even an internship depending on the company) or a first research experience in Artificial Intelligence applied to Natural Language Processing.
+
+appeler "blog"> "my research" ? faire des posts pour parler des tâches.
