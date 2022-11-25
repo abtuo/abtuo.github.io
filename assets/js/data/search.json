@@ -13,6 +13,21 @@
 
 
     "snippet": "You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.Jekyll requires blog post files to be named according to the following format:YEAR-MONTH-DAY-title.MARKUPWhere YEAR is a four-digit number, MONTH and DAY are both two-digit numbers, and MARKUP is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.Jekyll also offers powerful support for code snippets:def print_hi(name)  puts \"Hi, #{name}\"endprint_hi('Tom')#=&gt; prints 'Hi, Tom' to STDOUT.Check out the Jekyll docs for more info on how to get the most out of Jekyll. File all bugs/feature requests at Jekyll’s GitHub repo. If you have questions, you can ask them on Jekyll Talk."
+  },
+  
+  {
+    "title": "Named Entity Recognition (NER)",
+    "url": "/posts/named-entity-recognition/",
+    "categories": "IE",
+    "tags": "",
+    "date": "2022-09-30 14:15:21 +0200",
+    
+
+
+
+
+
+    "snippet": "In natural language processing, identifying entities of interest (NER) in a sentence such as person, location, organization etc. requires labeled data. We need sentences labeled with entities of interest where the labeling of each sentence is done either manually or by some automated method (often using heuristics to create a noisy/weakly labeled data set). These labeled sentences are then used to train a model to recognize those entities as a supervised learning task."
   }
   
 ]

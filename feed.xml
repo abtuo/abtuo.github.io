@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Aboubacar Tuo</title>
   <subtitle>A minimal, responsive, and powerful Jekyll theme for presenting professional writing.</subtitle>
-  <updated>2022-11-18T20:39:53+01:00</updated>
+  <updated>2022-11-25T12:28:32+01:00</updated>
   <author>
     <name>Aboubacar Tuo</name>
     <uri>http://localhost:4000/</uri>
@@ -51,6 +51,40 @@
 Jekyll requires blog post files to be named according to the following format:
 
 YEAR-MONTH-DAY-title.MAR...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Named Entity Recognition (NER)</title>
+    <link href="http://localhost:4000/posts/named-entity-recognition/" rel="alternate" type="text/html" title="Named Entity Recognition (NER)" />
+    <published>2022-09-30T14:15:21+02:00</published>
+  
+    <updated>2022-09-30T14:15:21+02:00</updated>
+  
+    <id>http://localhost:4000/posts/named-entity-recognition/</id>
+    <content src="http://localhost:4000/posts/named-entity-recognition/" />
+    <author>
+      <name>Aboubacar Tuo</name>
+    </author>
+
+  
+    
+    <category term="IE" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      In natural language processing, identifying entities of interest (NER) in a sentence such as person, location, organization etc. requires labeled data. We need sentences labeled with entities of interest where the labeling of each sentence is done either manually or by some automated method (often using heuristics to create a noisy/weakly labeled data set). These labeled sentences are then used...
     </summary>
   
 
