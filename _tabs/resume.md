@@ -19,6 +19,7 @@ order: 2
     {% include resume/language.html %}
     {% include resume/interests.html %}
     {% include resume/evaluation.html %}
+    {% include resume/download.html %}
 </div>
 
 

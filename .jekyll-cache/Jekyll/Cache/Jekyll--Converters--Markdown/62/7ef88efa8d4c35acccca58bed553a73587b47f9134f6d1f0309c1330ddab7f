@@ -1,4 +1,4 @@
-I"G
+I"G
 <div class="wrapper">
     <!--
 <section class="basic">
@@ -332,10 +332,13 @@
     
 
 
+    <download class="download">
+
+        <h1 style="color: green">GeeksforGeeks</h1>
+        <h3>Embedding the PDF file Using embed Tag</h3>
+        <embed src="https://github.com/abtuo/abtuo.github.io/blob/main/_data/CV_ATuo.pdf" width="800" height="500" />
+</download>
 </div>
 
-<div style="height:100px">
-
-    [<i class="fas fa-file-pdf"></i> Download my resume here](https://github.com/abtuo/abtuo.github.io/raw/main/_data/CV_ATuo.pdf "cv_atuo")
-</div>
+<p><a href="https://github.com/abtuo/abtuo.github.io/raw/main/_data/CV_ATuo.pdf" title="cv_atuo"><i class="fas fa-file-pdf"></i> Download my resume here</a></p>
 :ET
