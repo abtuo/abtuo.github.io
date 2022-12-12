@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Aboubacar Tuo</title>
   <subtitle>A minimal, responsive, and powerful Jekyll theme for presenting professional writing.</subtitle>
-  <updated>2022-12-12T16:15:46+01:00</updated>
+  <updated>2022-12-12T20:02:14+01:00</updated>
   <author>
     <name>Aboubacar Tuo</name>
     <uri>http://localhost:4000/</uri>
@@ -20,8 +20,147 @@
 
   
   <entry>
+    <title>Event Extraction</title>
+    <link href="http://localhost:4000/posts/event-extraction/" rel="alternate" type="text/html" title="Event Extraction" />
+    <published>2022-12-12T19:01:21+01:00</published>
+  
+    <updated>2022-12-12T19:01:21+01:00</updated>
+  
+    <id>http://localhost:4000/posts/event-extraction/</id>
+    <content src="http://localhost:4000/posts/event-extraction/" />
+    <author>
+      <name>Aboubacar Tuo</name>
+    </author>
+
+  
+    
+    <category term="IE" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      comming soon…
+
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Relation Extraction (RE)</title>
+    <link href="http://localhost:4000/posts/relation-extraction/" rel="alternate" type="text/html" title="Relation Extraction (RE)" />
+    <published>2022-10-03T17:15:21+02:00</published>
+  
+    <updated>2022-10-03T17:15:21+02:00</updated>
+  
+    <id>http://localhost:4000/posts/relation-extraction/</id>
+    <content src="http://localhost:4000/posts/relation-extraction/" />
+    <author>
+      <name>Aboubacar Tuo</name>
+    </author>
+
+  
+    
+    <category term="IE" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      comming soon…
+
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Article 1...</title>
+    <link href="http://localhost:4000/posts/article/" rel="alternate" type="text/html" title="Article 1..." />
+    <published>2022-10-03T15:57:21+02:00</published>
+  
+    <updated>2022-10-03T15:57:21+02:00</updated>
+  
+    <id>http://localhost:4000/posts/article/</id>
+    <content src="http://localhost:4000/posts/article/" />
+    <author>
+      <name>Aboubacar Tuo</name>
+    </author>
+
+  
+    
+    <category term="Bibliographie" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      comming soon…
+
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
     <title>Named Entity Recognition (NER)</title>
-    <link href="http://localhost:4000/posts/information-extraction/" rel="alternate" type="text/html" title="Named Entity Recognition (NER)" />
+    <link href="http://localhost:4000/posts/named-entity-recognition/" rel="alternate" type="text/html" title="Named Entity Recognition (NER)" />
+    <published>2022-09-30T16:15:21+02:00</published>
+  
+    <updated>2022-09-30T16:15:21+02:00</updated>
+  
+    <id>http://localhost:4000/posts/named-entity-recognition/</id>
+    <content src="http://localhost:4000/posts/named-entity-recognition/" />
+    <author>
+      <name>Aboubacar Tuo</name>
+    </author>
+
+  
+    
+    <category term="IE" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      In natural language processing, Named Entity Recognition (NER) is a common sub-tasks of Information Extraction that consists of identifying and classifing named entities in untructured texts, into pre-defined categories such as persons, locations, organizations, etc. An entity can be any word or series of words that consistently refers to the same thing. Every detected entity is classified into...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Information Extraction (IE)</title>
+    <link href="http://localhost:4000/posts/information-extraction/" rel="alternate" type="text/html" title="Information Extraction (IE)" />
     <published>2022-09-30T14:15:21+02:00</published>
   
     <updated>2022-09-30T14:15:21+02:00</updated>
@@ -46,113 +185,8 @@
 
 
 
-      In natural language processing, identifying entities of interest (NER) in a sentence such as person, location, organization etc. requires labeled data. We need sentences labeled with entities of interest where the labeling of each sentence is done either manually or by some automated method (often using heuristics to create a noisy/weakly labeled data set). These labeled sentences are then used...
-    </summary>
-  
+      comming soon…
 
-  </entry>
-
-  
-  <entry>
-    <title>Bibliographie</title>
-    <link href="http://localhost:4000/posts/welcome-to-jekyll/" rel="alternate" type="text/html" title="Bibliographie" />
-    <published>2022-09-30T14:15:21+02:00</published>
-  
-    <updated>2022-09-30T14:15:21+02:00</updated>
-  
-    <id>http://localhost:4000/posts/welcome-to-jekyll/</id>
-    <content src="http://localhost:4000/posts/welcome-to-jekyll/" />
-    <author>
-      <name>Aboubacar Tuo</name>
-    </author>
-
-  
-    
-    <category term="Biblio" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.
-
-Jekyll requires blog post files to be named according to the following format:
-
-YEAR-MONTH-DAY-title.MAR...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Named Entity Recognition (NER)</title>
-    <link href="http://localhost:4000/posts/relation-extraction/" rel="alternate" type="text/html" title="Named Entity Recognition (NER)" />
-    <published>2022-09-30T14:15:21+02:00</published>
-  
-    <updated>2022-09-30T14:15:21+02:00</updated>
-  
-    <id>http://localhost:4000/posts/relation-extraction/</id>
-    <content src="http://localhost:4000/posts/relation-extraction/" />
-    <author>
-      <name>Aboubacar Tuo</name>
-    </author>
-
-  
-    
-    <category term="IE" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      In natural language processing, identifying entities of interest (NER) in a sentence such as person, location, organization etc. requires labeled data. We need sentences labeled with entities of interest where the labeling of each sentence is done either manually or by some automated method (often using heuristics to create a noisy/weakly labeled data set). These labeled sentences are then used...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Named Entity Recognition (NER)</title>
-    <link href="http://localhost:4000/posts/named-entity-recognition/" rel="alternate" type="text/html" title="Named Entity Recognition (NER)" />
-    <published>2022-09-30T14:15:21+02:00</published>
-  
-    <updated>2022-09-30T14:15:21+02:00</updated>
-  
-    <id>http://localhost:4000/posts/named-entity-recognition/</id>
-    <content src="http://localhost:4000/posts/named-entity-recognition/" />
-    <author>
-      <name>Aboubacar Tuo</name>
-    </author>
-
-  
-    
-    <category term="IE" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      In natural language processing, identifying entities of interest (NER) in a sentence such as persons, locations, organizations, etc. requires labeled data. We need sentences labeled with entities of interest where the labeling of each sentence is done either manually or by some automated method (often using heuristics to create a noisy/weakly labeled data set). These labeled sentences are then ...
     </summary>
   
 

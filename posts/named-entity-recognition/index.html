@@ -44,18 +44,18 @@
 <meta name="generator" content="Jekyll v4.2.2" />
 <meta property="og:title" content="Named Entity Recognition (NER)" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="In natural language processing, identifying entities of interest (NER) in a sentence such as persons, locations, organizations, etc. requires labeled data. We need sentences labeled with entities of interest where the labeling of each sentence is done either manually or by some automated method (often using heuristics to create a noisy/weakly labeled data set). These labeled sentences are then used to train a model to recognize those entities as a supervised learning task." />
-<meta property="og:description" content="In natural language processing, identifying entities of interest (NER) in a sentence such as persons, locations, organizations, etc. requires labeled data. We need sentences labeled with entities of interest where the labeling of each sentence is done either manually or by some automated method (often using heuristics to create a noisy/weakly labeled data set). These labeled sentences are then used to train a model to recognize those entities as a supervised learning task." />
+<meta name="description" content="In natural language processing, Named Entity Recognition (NER) is a common sub-tasks of Information Extraction that consists of identifying and classifing named entities in untructured texts, into pre-defined categories such as persons, locations, organizations, etc. An entity can be any word or series of words that consistently refers to the same thing. Every detected entity is classified into a predetermined category. For example, an NER model might detect the word “Google” in a text and classify it as a “Company”." />
+<meta property="og:description" content="In natural language processing, Named Entity Recognition (NER) is a common sub-tasks of Information Extraction that consists of identifying and classifing named entities in untructured texts, into pre-defined categories such as persons, locations, organizations, etc. An entity can be any word or series of words that consistently refers to the same thing. Every detected entity is classified into a predetermined category. For example, an NER model might detect the word “Google” in a text and classify it as a “Company”." />
 <link rel="canonical" href="http://localhost:4000/posts/named-entity-recognition/" />
 <meta property="og:url" content="http://localhost:4000/posts/named-entity-recognition/" />
 <meta property="og:site_name" content="Aboubacar Tuo" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2022-09-30T14:15:21+02:00" />
+<meta property="article:published_time" content="2022-09-30T16:15:21+02:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Named Entity Recognition (NER)" />
 <meta name="twitter:site" content="@twitter_username" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-09-30T14:15:21+02:00","datePublished":"2022-09-30T14:15:21+02:00","description":"In natural language processing, identifying entities of interest (NER) in a sentence such as persons, locations, organizations, etc. requires labeled data. We need sentences labeled with entities of interest where the labeling of each sentence is done either manually or by some automated method (often using heuristics to create a noisy/weakly labeled data set). These labeled sentences are then used to train a model to recognize those entities as a supervised learning task.","headline":"Named Entity Recognition (NER)","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/named-entity-recognition/"},"url":"http://localhost:4000/posts/named-entity-recognition/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-09-30T16:15:21+02:00","datePublished":"2022-09-30T16:15:21+02:00","description":"In natural language processing, Named Entity Recognition (NER) is a common sub-tasks of Information Extraction that consists of identifying and classifing named entities in untructured texts, into pre-defined categories such as persons, locations, organizations, etc. An entity can be any word or series of words that consistently refers to the same thing. Every detected entity is classified into a predetermined category. For example, an NER model might detect the word “Google” in a text and classify it as a “Company”.","headline":"Named Entity Recognition (NER)","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/named-entity-recognition/"},"url":"http://localhost:4000/posts/named-entity-recognition/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
@@ -583,7 +583,7 @@
 
 
 <em class=""
-    data-ts="1664540121"
+    data-ts="1664547321"
     data-df="ll"
     data-toggle="tooltip" data-placement="bottom">
   Sep 30, 2022
@@ -637,7 +637,7 @@
 
 <!-- return element -->
 <span class="readtime" data-toggle="tooltip" data-placement="bottom"
-  title="73 words">
+  title="80 words">
   <em>1 min</em> read</span>
 
     </div>
@@ -647,7 +647,9 @@
 </div> <!-- .post-meta -->
 
 <div class="post-content">
-  <p>In natural language processing, identifying entities of interest (NER) in a sentence such as <strong>persons</strong>, <strong>locations</strong>, <strong>organizations</strong>, etc. requires labeled data. We need sentences labeled with entities of interest where the labeling of each sentence is done either manually or by some automated method (often using heuristics to create a noisy/weakly labeled data set). These labeled sentences are then used to train a model to recognize those entities as a supervised learning task.</p>
+  <p>In natural language processing, Named Entity Recognition (NER) is a common sub-tasks of Information Extraction that consists of identifying and classifing named entities in untructured texts, into pre-defined categories such as <strong>persons</strong>, <strong>locations</strong>, <strong>organizations</strong>, etc. An entity can be any word or series of words that consistently refers to the same thing. Every detected entity is classified into a predetermined category. For example, an NER model might detect the word “Google” in a text and classify it as a “Company”.</p>
+
+<!--We need sentences labeled with entities of interest where the labeling of each sentence is done either manually or by some automated method (often using heuristics to create a noisy/weakly labeled data set). These labeled sentences are then used to train a model to recognize those entities as a supervised learning task.-->
 
 </div>
 
@@ -863,6 +865,19 @@
 
   
     
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
 
 
 
@@ -873,65 +888,12 @@
 
 
 
-  
-    
-    
-      
-      
-    
-  
-    
-    
-      
-      
-        
-        
-        
-          
-
 
 
   <div id="related-posts" class="mb-2 mb-sm-4">
     <h3 class="pt-2 mb-4 ml-1"
       data-toc-skip>Further Reading</h3>
     <div class="card-deck mb-4">
-    
-      
-      
-      <div class="card">
-        <a href="/posts/relation-extraction/">
-          <div class="card-body">
-            <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-
-<em class="small"
-    data-ts="1664540121"
-    data-df="ll"
-    >
-  Sep 30, 2022
-</em>
-
-            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>Named Entity Recognition (NER)</h3>
-            <div class="text-muted small">
-              <p>
-                
-
-
-
-
-
-                In natural language processing, identifying entities of interest (NER) in a sentence such as person, location, organization etc. requires labeled data. We need sentences labeled with entities of in...
-              </p>
-            </div>
-          </div>
-        </a>
-      </div>
     
       
       
@@ -954,7 +916,7 @@
   Sep 30, 2022
 </em>
 
-            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>Named Entity Recognition (NER)</h3>
+            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>Information Extraction (IE)</h3>
             <div class="text-muted small">
               <p>
                 
@@ -963,7 +925,8 @@
 
 
 
-                In natural language processing, identifying entities of interest (NER) in a sentence such as person, location, organization etc. requires labeled data. We need sentences labeled with entities of in...
+                comming soon…
+
               </p>
             </div>
           </div>
@@ -973,7 +936,7 @@
       
       
       <div class="card">
-        <a href="/posts/welcome-to-jekyll/">
+        <a href="/posts/relation-extraction/">
           <div class="card-body">
             <!--
   Date format snippet
@@ -985,13 +948,13 @@
 
 
 <em class="small"
-    data-ts="1664540121"
+    data-ts="1664810121"
     data-df="ll"
     >
-  Sep 30, 2022
+  Oct  3, 2022
 </em>
 
-            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>Bibliographie</h3>
+            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>Relation Extraction (RE)</h3>
             <div class="text-muted small">
               <p>
                 
@@ -1000,7 +963,46 @@
 
 
 
-                You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run je...
+                comming soon…
+
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    
+      
+      
+      <div class="card">
+        <a href="/posts/event-extraction/">
+          <div class="card-body">
+            <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+
+<em class="small"
+    data-ts="1670868081"
+    data-df="ll"
+    >
+  Dec 12, 2022
+</em>
+
+            <h3 class="pt-0 mt-1 mb-3" data-toc-skip>Event Extraction</h3>
+            <div class="text-muted small">
+              <p>
+                
+
+
+
+
+
+                comming soon…
+
               </p>
             </div>
           </div>
@@ -1019,16 +1021,16 @@
 
 <div class="post-navigation d-flex justify-content-between">
   
-  <div class="btn btn-outline-primary disabled"
+  <a href="/posts/information-extraction/" class="btn btn-outline-primary"
     prompt="Older">
-    <p>-</p>
-  </div>
+    <p>Information Extraction (IE)</p>
+  </a>
   
 
   
-  <a href="/posts/relation-extraction/" class="btn btn-outline-primary"
+  <a href="/posts/article/" class="btn btn-outline-primary"
     prompt="Newer">
-    <p>Named Entity Recognition (NER)</p>
+    <p>Article 1...</p>
   </a>
   
 
