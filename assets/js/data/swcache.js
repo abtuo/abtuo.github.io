@@ -13,11 +13,7 @@ const resource = [
   
     '/resume/',
   
-    '/blog/',
-  
     '/publications/',
-  
-    '/about/',
   
     '/posts/',
   
