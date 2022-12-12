@@ -7,8 +7,8 @@ basic:
 
 contact:
   location:
-  email: me@example.com
-  phone: +86-111-2222-3333
+  email: tuo.aboubacar@yahoo.fr
+  phone: +33 6 56 80 21 88
   website: example.com
   wechat:
   whatsapp:
@@ -39,11 +39,11 @@ experiences:
   display: true
   title: Experiences
   items:
-    - role: Backend Developer
+    - role: Phd Student
       time: 2018.03 - 2019.03
-      company: Second Company
+      company: Commissariat à l'énergie atomique
       tag:
-      location: Beijing
+      location: Paris
       details: |
         Experience in this company:
         + First
@@ -51,11 +51,11 @@ experiences:
 
         ...
 
-    - role: Backend Developer
+    - role: NLP Engineer
       time: 2017.03 - 2018.03
-      company: First Company
-      tag: Remote, part-time
-      location: Beijing
+      company: Astek Group
+      tag: 
+      location: Paris
       details: |
         Experience in this company:
         + First
@@ -91,32 +91,32 @@ skills:
     ...
 
   levels:
-    - name: Skill A
+    - name: Python
       level: 90
-    - name: Skill B
+    - name: C++
       level: 80
-    - name: Skill C
+    - name: Latex
       level: 70
 
 education:
   display: true
   title: Education
   items:
-    - university: Example University
-      time: 2015 - 2018
-      major: Machine Learning
+    - university: École Normale Supérieure Paris-Saclay
+      time: 2015 - 2020
+      major: Electrical Engineering
       degree: Master
       details: |
         Experience in this university:
-        + First
-        + Second
+        + SAPHIRE:
+        + MSc:
 
         ...
 
-    - university: Example University
-      time: 2011 - 2015
-      major: Computer Science
-      degree: Bachelor
+    - university: Mines Paristech
+      time: 2018 - 2020
+      major: Applied Mathematics & Computer Science
+      degree: Master (Engineering degree)
       details: |
         Experience in this university:
         + First
@@ -167,10 +167,12 @@ languages:
   display: true
   title: Languages
   items:
-    - idiom: Chinese
+    - idiom: French
       level: Native
     - idiom: English
       level: Professional
+    - idiom: Spanish
+      level: Basic notions
 
 interests:
   display: true

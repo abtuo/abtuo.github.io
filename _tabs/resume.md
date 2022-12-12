@@ -7,7 +7,7 @@ order: 2
 {% assign data = site.data.resume %}
 
 <div class="wrapper">
-    <!--{% include resume/basic.html %}-->
+    
     {% include resume/profile.html %}
     {% include resume/experiences.html %}
     {% include resume/projects.html %}
@@ -19,8 +19,10 @@ order: 2
     {% include resume/language.html %}
     {% include resume/interests.html %}
     {% include resume/evaluation.html %}
-    {% include resume/download.html %}
+    {% include resume/download.html %} 
+        
 </div>
 
 
-[<i class="fas fa-file-pdf"></i> Download my resume here](https://github.com/abtuo/abtuo.github.io/raw/main/_data/CV_ATuo.pdf "cv_atuo")
+
+[<i class="fas fa-file-pdf"></i> Download my resume here](https://abtuo.github.io/files/CV_ATuo.pdf "cv_atuo")

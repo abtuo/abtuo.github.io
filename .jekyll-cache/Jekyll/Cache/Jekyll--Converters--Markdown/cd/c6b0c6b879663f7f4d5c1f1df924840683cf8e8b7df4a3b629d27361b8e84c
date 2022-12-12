@@ -1,0 +1,263 @@
+I"�
+<div class="wrapper">
+    
+    
+
+<section class="profile">
+    <div class="section-title">
+        Profile
+    </div>
+
+    <div class="section-content">
+        <div class="markdown">
+            <p>It’s your career profile, you can wirte markdown format text.</p>
+<ul>
+  <li>First</li>
+  <li>Second</li>
+</ul>
+
+<p>…</p>
+
+        </div>
+    </div>
+</section>
+
+
+    
+
+<section class="experiences">
+    <div class="section-title">
+        Experiences
+    </div>
+
+    <div class="section-content">
+        
+        <div class="item">
+
+            <div class="upper-row">
+                <div class="company">
+                    Commissariat à l'énergie atomique
+                    
+                </div>
+                <div class="time">2018.03 - 2019.03</div>
+            </div>
+
+            <div class="upper-row">
+                <div class="role">Phd Student</div>
+                <div class="location"><i class="fas fa-location-dot"></i> Paris</div>
+            </div>
+
+            
+            <div class="details">
+                <div class="markdown">
+                    <p>Experience in this company:</p>
+<ul>
+  <li>First</li>
+  <li>Second</li>
+</ul>
+
+<p>…</p>
+
+                </div>
+            </div>
+            
+
+        </div>
+        
+        <div class="item">
+
+            <div class="upper-row">
+                <div class="company">
+                    Astek Group
+                    
+                </div>
+                <div class="time">2017.03 - 2018.03</div>
+            </div>
+
+            <div class="upper-row">
+                <div class="role">NLP Engineer</div>
+                <div class="location"><i class="fas fa-location-dot"></i> Paris</div>
+            </div>
+
+            
+            <div class="details">
+                <div class="markdown">
+                    <p>Experience in this company:</p>
+<ul>
+  <li>First</li>
+  <li>Second</li>
+</ul>
+
+<p>…</p>
+
+                </div>
+            </div>
+            
+
+        </div>
+        
+    </div>
+</section>
+
+
+    
+
+<section class="projects">
+    <div class="section-title">
+        Projects
+    </div>
+
+    <div class="section-content">
+        
+        <div class="intro">
+            <div class="markdown">
+                <p><p>This is all the projects I’m involved in.</p>
+</p>
+            </div>
+        </div>
+        
+
+        
+        <div class="item">
+            
+            <p class="project">
+                
+                <a href="https://www.google.com" target="_blank">Foo</a>
+                
+            </p>
+
+            
+            <div class="details">
+                <div class="markdown">
+                    <p>Project Foo’s detail, you can write markdown format text.</p>
+
+                </div>
+            </div>
+            
+            
+        </div>
+        
+        <div class="item">
+            
+            <p class="project">
+                
+                Bar
+                
+            </p>
+
+            
+            <div class="details">
+                <div class="markdown">
+                    <p>Project Bar’s detail, you can write markdown format text.</p>
+
+                </div>
+            </div>
+            
+            
+        </div>
+        
+    </div>
+</section>
+
+
+    
+
+
+    
+
+<section class="educations">
+    <div class="section-title">
+        Education
+    </div>
+
+    <div class="section-content">
+        
+        <div class="item">
+
+            <div class="upper-row">
+                <div class="university">École Normale Supérieure Paris-Saclay</div>
+                <div class="time">2015 - 2020</div>
+            </div>
+
+            <div class="upper-row">
+                <div class="major">Electrical Engineering</div>
+                <div class="degree"><i class="fas fa-graduation-cap"></i> Master</div>
+            </div>
+
+            
+            <div class="details">
+                <div class="markdown">
+                    <p>Experience in this university:</p>
+<ul>
+  <li>SAPHIRE:</li>
+  <li>MSc:</li>
+</ul>
+
+<p>…</p>
+
+                </div>
+            </div>
+            
+
+        </div>
+        
+        <div class="item">
+
+            <div class="upper-row">
+                <div class="university">Mines Paristech</div>
+                <div class="time">2018 - 2020</div>
+            </div>
+
+            <div class="upper-row">
+                <div class="major">Applied Mathematics &amp; Computer Science</div>
+                <div class="degree"><i class="fas fa-graduation-cap"></i> Master (Engineering degree)</div>
+            </div>
+
+            
+            <div class="details">
+                <div class="markdown">
+                    <p>Experience in this university:</p>
+<ul>
+  <li>First</li>
+  <li>Second</li>
+</ul>
+
+<p>…</p>
+
+                </div>
+            </div>
+            
+
+        </div>
+        
+    </div>
+</section>
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    
+
+
+    <download class="download">
+        <h3 style="color: rgb(16, 16, 236);"><i class="fas fa-file-pdf"></i> PDF version</h3>
+        <embed src="https://abtuo.github.io/files/CV_ATuo.pdf" width="100%" height="1000" />
+</download> 
+        
+</div>
+
+<p><a href="https://abtuo.github.io/files/CV_ATuo.pdf" title="cv_atuo"><i class="fas fa-file-pdf"></i> Download my resume here</a></p>
+:ET
