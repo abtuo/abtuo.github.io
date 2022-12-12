@@ -1,6 +1,21 @@
 [
   
   {
+    "title": "Named Entity Recognition (NER)",
+    "url": "/posts/information-extraction/",
+    "categories": "IE",
+    "tags": "",
+    "date": "2022-09-30 14:15:21 +0200",
+    
+
+
+
+
+
+    "snippet": "In natural language processing, identifying entities of interest (NER) in a sentence such as person, location, organization etc. requires labeled data. We need sentences labeled with entities of interest where the labeling of each sentence is done either manually or by some automated method (often using heuristics to create a noisy/weakly labeled data set). These labeled sentences are then used to train a model to recognize those entities as a supervised learning task."
+  },
+  
+  {
     "title": "Bibliographie",
     "url": "/posts/welcome-to-jekyll/",
     "categories": "Biblio",
@@ -17,7 +32,7 @@
   
   {
     "title": "Named Entity Recognition (NER)",
-    "url": "/posts/named-entity-recognition/",
+    "url": "/posts/relation-extraction/",
     "categories": "IE",
     "tags": "",
     "date": "2022-09-30 14:15:21 +0200",
@@ -28,6 +43,21 @@
 
 
     "snippet": "In natural language processing, identifying entities of interest (NER) in a sentence such as person, location, organization etc. requires labeled data. We need sentences labeled with entities of interest where the labeling of each sentence is done either manually or by some automated method (often using heuristics to create a noisy/weakly labeled data set). These labeled sentences are then used to train a model to recognize those entities as a supervised learning task."
+  },
+  
+  {
+    "title": "Named Entity Recognition (NER)",
+    "url": "/posts/named-entity-recognition/",
+    "categories": "IE",
+    "tags": "",
+    "date": "2022-09-30 14:15:21 +0200",
+    
+
+
+
+
+
+    "snippet": "In natural language processing, identifying entities of interest (NER) in a sentence such as persons, locations, organizations, etc. requires labeled data. We need sentences labeled with entities of interest where the labeling of each sentence is done either manually or by some automated method (often using heuristics to create a noisy/weakly labeled data set). These labeled sentences are then used to train a model to recognize those entities as a supervised learning task."
   }
   
 ]
