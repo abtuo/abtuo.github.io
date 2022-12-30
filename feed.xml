@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Aboubacar Tuo</title>
   <subtitle>A minimal, responsive, and powerful Jekyll theme for presenting professional writing.</subtitle>
-  <updated>2022-12-30T10:34:12+01:00</updated>
+  <updated>2022-12-30T10:41:14+01:00</updated>
   <author>
     <name>Aboubacar Tuo</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,42 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Prototypical Networks</title>
+    <link href="http://localhost:4000/posts/protonet/" rel="alternate" type="text/html" title="Prototypical Networks" />
+    <published>2022-12-30T09:37:21+01:00</published>
+  
+    <updated>2022-12-30T09:37:21+01:00</updated>
+  
+    <id>http://localhost:4000/posts/protonet/</id>
+    <content src="http://localhost:4000/posts/protonet/" />
+    <author>
+      <name>Aboubacar Tuo</name>
+    </author>
+
+  
+    
+    <category term="Meta-learning" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Prototypical networks are a type of few-shot learning model that was first introduced by Snell et al. 2017. They are designed to learn to classify new examples by comparing them to a small number of examples from each class, or “prototypes.” The idea behind prototypical networks is that each class can be represented by a prototype, which is a representative example of that class.
+
+Prototypical ...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -85,41 +121,6 @@ There are several sub-tasks involved in event extractio...
       Relation extraction is a natural language processing (NLP) task that involves identifying relationships between entities in a text. These relationships can be binary (e.g., “person X is the father of person Y”) or multi-valued (e.g., “person X works at company Y and company Z”).
 
 Relation extraction is a crucial component of information extraction systems, which aim to extract structured data f...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Better Exploitting BERT For Few-Shot Event Detection</title>
-    <link href="http://localhost:4000/posts/article/" rel="alternate" type="text/html" title="Better Exploitting BERT For Few-Shot Event Detection" />
-    <published>2022-10-03T15:57:21+02:00</published>
-  
-    <updated>2022-10-03T15:57:21+02:00</updated>
-  
-    <id>http://localhost:4000/posts/article/</id>
-    <content src="http://localhost:4000/posts/article/" />
-    <author>
-      <name>Aboubacar Tuo</name>
-    </author>
-
-  
-    
-    <category term="Bibliographie" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      comming soon…
-
     </summary>
   
 
