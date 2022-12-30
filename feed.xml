@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Aboubacar Tuo</title>
   <subtitle>A minimal, responsive, and powerful Jekyll theme for presenting professional writing.</subtitle>
-  <updated>2022-12-26T18:53:37+01:00</updated>
+  <updated>2022-12-30T10:34:12+01:00</updated>
   <author>
     <name>Aboubacar Tuo</name>
     <uri>http://localhost:4000/</uri>
@@ -46,8 +46,9 @@
 
 
 
-      coming soon…
+      Event extraction is the task of identifying events in a text and extracting information about the participants, time, location, and other details of the event. It is an important subtask of natural language processing (NLP) and is used in various applications such as question answering, text summarization, and knowledge base construction.
 
+There are several sub-tasks involved in event extractio...
     </summary>
   
 
@@ -81,8 +82,9 @@
 
 
 
-      comming soon…
+      Relation extraction is a natural language processing (NLP) task that involves identifying relationships between entities in a text. These relationships can be binary (e.g., “person X is the father of person Y”) or multi-valued (e.g., “person X works at company Y and company Z”).
 
+Relation extraction is a crucial component of information extraction systems, which aim to extract structured data f...
     </summary>
   
 
@@ -90,8 +92,8 @@
 
   
   <entry>
-    <title>Article 1...</title>
-    <link href="http://localhost:4000/posts/article/" rel="alternate" type="text/html" title="Article 1..." />
+    <title>Better Exploitting BERT For Few-Shot Event Detection</title>
+    <link href="http://localhost:4000/posts/article/" rel="alternate" type="text/html" title="Better Exploitting BERT For Few-Shot Event Detection" />
     <published>2022-10-03T15:57:21+02:00</published>
   
     <updated>2022-10-03T15:57:21+02:00</updated>
@@ -151,7 +153,7 @@
 
 
 
-      In natural language processing, Named Entity Recognition (NER) is a common sub-tasks of Information Extraction that consists of identifying and classifing named entities in untructured texts, into pre-defined categories such as persons, locations, organizations, etc. An entity can be any word or series of words that consistently refers to the same thing. Every detected entity is classified into...
+      In natural language processing, Named Entity Recognition (NER) is a common sub-tasks of Information Extraction that consists of identifying and classifing named entities in untructured texts, into predefined categories such as persons, locations, organizations, medical codes, time expressions, quantities, monetary values, etc. An entity can be any word or series of words that consistently refer...
     </summary>
   
 
@@ -185,8 +187,9 @@
 
 
 
-      coming soon…
+      Information extraction is the process of extracting structured data from unstructured texts. It is an important task in natural language processing (NLP) and is used in various applications such as question answering, text summarization, and knowledge base construction.
 
+There are several sub-tasks involved in information extraction, including named entity recognition (NER), relation extraction...
     </summary>
   
 

@@ -44,8 +44,8 @@
 <meta name="generator" content="Jekyll v4.2.2" />
 <meta property="og:title" content="Named Entity Recognition (NER)" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="In natural language processing, Named Entity Recognition (NER) is a common sub-tasks of Information Extraction that consists of identifying and classifing named entities in untructured texts, into pre-defined categories such as persons, locations, organizations, etc. An entity can be any word or series of words that consistently refers to the same thing. Every detected entity is classified into a predetermined category. For example, an NER model might detect the word “Google” in a text and classify it as a “Company”." />
-<meta property="og:description" content="In natural language processing, Named Entity Recognition (NER) is a common sub-tasks of Information Extraction that consists of identifying and classifing named entities in untructured texts, into pre-defined categories such as persons, locations, organizations, etc. An entity can be any word or series of words that consistently refers to the same thing. Every detected entity is classified into a predetermined category. For example, an NER model might detect the word “Google” in a text and classify it as a “Company”." />
+<meta name="description" content="In natural language processing, Named Entity Recognition (NER) is a common sub-tasks of Information Extraction that consists of identifying and classifing named entities in untructured texts, into predefined categories such as persons, locations, organizations, medical codes, time expressions, quantities, monetary values, etc. An entity can be any word or series of words that consistently refers to the same thing. Every detected entity is classified into a predetermined category. For example, in the sentence “Google develloped a new AI model”, an NER model might detect the word “Google” in a text and classify it as a “Company”. It is an important subtask of natural language processing (NLP) and is used in various applications such as information extraction, question answering, and text summarization." />
+<meta property="og:description" content="In natural language processing, Named Entity Recognition (NER) is a common sub-tasks of Information Extraction that consists of identifying and classifing named entities in untructured texts, into predefined categories such as persons, locations, organizations, medical codes, time expressions, quantities, monetary values, etc. An entity can be any word or series of words that consistently refers to the same thing. Every detected entity is classified into a predetermined category. For example, in the sentence “Google develloped a new AI model”, an NER model might detect the word “Google” in a text and classify it as a “Company”. It is an important subtask of natural language processing (NLP) and is used in various applications such as information extraction, question answering, and text summarization." />
 <link rel="canonical" href="http://localhost:4000/posts/named-entity-recognition/" />
 <meta property="og:url" content="http://localhost:4000/posts/named-entity-recognition/" />
 <meta property="og:site_name" content="Aboubacar Tuo" />
@@ -55,7 +55,7 @@
 <meta property="twitter:title" content="Named Entity Recognition (NER)" />
 <meta name="twitter:site" content="@atuo" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-09-30T16:15:21+02:00","datePublished":"2022-09-30T16:15:21+02:00","description":"In natural language processing, Named Entity Recognition (NER) is a common sub-tasks of Information Extraction that consists of identifying and classifing named entities in untructured texts, into pre-defined categories such as persons, locations, organizations, etc. An entity can be any word or series of words that consistently refers to the same thing. Every detected entity is classified into a predetermined category. For example, an NER model might detect the word “Google” in a text and classify it as a “Company”.","headline":"Named Entity Recognition (NER)","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/named-entity-recognition/"},"url":"http://localhost:4000/posts/named-entity-recognition/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-09-30T16:15:21+02:00","datePublished":"2022-09-30T16:15:21+02:00","description":"In natural language processing, Named Entity Recognition (NER) is a common sub-tasks of Information Extraction that consists of identifying and classifing named entities in untructured texts, into predefined categories such as persons, locations, organizations, medical codes, time expressions, quantities, monetary values, etc. An entity can be any word or series of words that consistently refers to the same thing. Every detected entity is classified into a predetermined category. For example, in the sentence “Google develloped a new AI model”, an NER model might detect the word “Google” in a text and classify it as a “Company”. It is an important subtask of natural language processing (NLP) and is used in various applications such as information extraction, question answering, and text summarization.","headline":"Named Entity Recognition (NER)","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/named-entity-recognition/"},"url":"http://localhost:4000/posts/named-entity-recognition/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
@@ -637,7 +637,7 @@
 
 <!-- return element -->
 <span class="readtime" data-toggle="tooltip" data-placement="bottom"
-  title="80 words">
+  title="246 words">
   <em>1 min</em> read</span>
 
     </div>
@@ -647,9 +647,11 @@
 </div> <!-- .post-meta -->
 
 <div class="post-content">
-  <p>In natural language processing, Named Entity Recognition (NER) is a common sub-tasks of Information Extraction that consists of identifying and classifing named entities in untructured texts, into pre-defined categories such as <strong>persons</strong>, <strong>locations</strong>, <strong>organizations</strong>, etc. An entity can be any word or series of words that consistently refers to the same thing. Every detected entity is classified into a predetermined category. For example, an NER model might detect the word “Google” in a text and classify it as a “Company”.</p>
+  <p>In natural language processing, Named Entity Recognition (NER) is a common sub-tasks of Information Extraction that consists of identifying and classifing named entities in untructured texts, into predefined categories such as <strong>persons</strong>, <strong>locations</strong>, <strong>organizations</strong>, <strong>medical codes</strong>, <strong>time expressions</strong>, <strong>quantities</strong>, <strong>monetary values</strong>, etc. An entity can be any word or series of words that consistently refers to the same thing. Every detected entity is classified into a predetermined category. For example, in the sentence “Google develloped a new AI model”, an NER model might detect the word “Google” in a text and classify it as a “Company”. It is an important subtask of natural language processing (NLP) and is used in various applications such as information extraction, question answering, and text summarization.</p>
 
-<!--We need sentences labeled with entities of interest where the labeling of each sentence is done either manually or by some automated method (often using heuristics to create a noisy/weakly labeled data set). These labeled sentences are then used to train a model to recognize those entities as a supervised learning task.-->
+<p>One of the main challenges in NER is the need for large amounts of annotated data, which is text that has been manually labeled with the named entities it contains. Annotating data is a time-consuming and costly process, and it is often difficult to obtain enough annotated data to train a high-quality NER model.</p>
+
+<p>To address this problem, researchers have developed methods for performing NER in a few-shot manner, which means that the model can learn to recognize named entities using only a small amount of annotated data. These methods typically involve transfer learning, where a model pre-trained on a large dataset is fine-tuned on the smaller annotated dataset, or using unsupervised or semi-supervised learning techniques to learn from a larger amount of unlabeled data.</p>
 
 </div>
 
@@ -925,8 +927,7 @@
 
 
 
-                coming soon…
-
+                Information extraction is the process of extracting structured data from unstructured texts. It is an important task in natural language processing (NLP) and is used in various applications such as...
               </p>
             </div>
           </div>
@@ -963,8 +964,7 @@
 
 
 
-                comming soon…
-
+                Relation extraction is a natural language processing (NLP) task that involves identifying relationships between entities in a text. These relationships can be binary (e.g., “person X is the father ...
               </p>
             </div>
           </div>
@@ -1001,8 +1001,7 @@
 
 
 
-                coming soon…
-
+                Event extraction is the task of identifying events in a text and extracting information about the participants, time, location, and other details of the event. It is an important subtask of natural...
               </p>
             </div>
           </div>
@@ -1030,7 +1029,7 @@
   
   <a href="/posts/article/" class="btn btn-outline-primary"
     prompt="Newer">
-    <p>Article 1...</p>
+    <p>Better Exploitting BERT For Few-Shot Event Detection</p>
   </a>
   
 
