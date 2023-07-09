@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Aboubacar Tuo</title>
   <subtitle>A minimal, responsive, and powerful Jekyll theme for presenting professional writing.</subtitle>
-  <updated>2022-12-30T10:41:14+01:00</updated>
+  <updated>2023-07-09T21:22:51+02:00</updated>
   <author>
     <name>Aboubacar Tuo</name>
     <uri>http://localhost:4000/</uri>
@@ -13,10 +13,45 @@
   <link rel="alternate" type="text/html" hreflang="en"
     href="http://localhost:4000/"/>
   <generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator>
-  <rights> © 2022 Aboubacar Tuo </rights>
+  <rights> © 2023 Aboubacar Tuo </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Better Exploitting BERT For Few-Shot Event Detection</title>
+    <link href="http://localhost:4000/posts/article/" rel="alternate" type="text/html" title="Better Exploitting BERT For Few-Shot Event Detection" />
+    <published>2022-12-30T14:57:21+01:00</published>
+  
+    <updated>2022-12-30T14:57:21+01:00</updated>
+  
+    <id>http://localhost:4000/posts/article/</id>
+    <content src="http://localhost:4000/posts/article/" />
+    <author>
+      <name>Aboubacar Tuo</name>
+    </author>
+
+  
+    
+    <category term="Articles" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      comming soon…
+
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -155,42 +190,6 @@ Relation extraction is a crucial component of information extraction systems, wh
 
 
       In natural language processing, Named Entity Recognition (NER) is a common sub-tasks of Information Extraction that consists of identifying and classifing named entities in untructured texts, into predefined categories such as persons, locations, organizations, medical codes, time expressions, quantities, monetary values, etc. An entity can be any word or series of words that consistently refer...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Information Extraction (IE)</title>
-    <link href="http://localhost:4000/posts/information-extraction/" rel="alternate" type="text/html" title="Information Extraction (IE)" />
-    <published>2022-09-30T14:15:21+02:00</published>
-  
-    <updated>2022-09-30T14:15:21+02:00</updated>
-  
-    <id>http://localhost:4000/posts/information-extraction/</id>
-    <content src="http://localhost:4000/posts/information-extraction/" />
-    <author>
-      <name>Aboubacar Tuo</name>
-    </author>
-
-  
-    
-    <category term="IE" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Information extraction is the process of extracting structured data from unstructured texts. It is an important task in natural language processing (NLP) and is used in various applications such as question answering, text summarization, and knowledge base construction.
-
-There are several sub-tasks involved in information extraction, including named entity recognition (NER), relation extraction...
     </summary>
   
 
