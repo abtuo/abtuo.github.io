@@ -1,9 +1,8 @@
 ---
 layout: post
 title:  "Few-Shot Event Argument Extraction Based on a Meta-Learning Approach"
-date:   2024-04-26
+date: 2024-04-26
 categories: [Information Extraction]
-tags: [information extraction]
 ---
 
 ![Illustration](./assets/figures/method_fewrel.drawio.png)
