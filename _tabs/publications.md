@@ -6,7 +6,21 @@ order: 1
 
 <details>
 <summary><b style="font-family: 'Arial'; color: blue; font-size: 24px;"> 2024 </b></summary>
-<!-- Ajoutez les publications de 2023 ici -->
+
+<summary> <a href="https://aclanthology.org/2024.naacl-srw.17/"><b>A Meta-Learning Approach for Few-Shot Event Argument Extraction</b></a></summary>
+<p><i>Aboubacar Tuo, Romaric Besançon, Olivier Ferret, Julien Tourille. JEP-TALN, 2024.</i></p>
+
+<blockquote>
+Few-shot learning techniques for Event Extraction are developed to alleviate the cost of data annotation. However, most studies on few-shot event extraction only focus on event trigger detection and no study has been proposed on argument extraction in a meta-learning context. In this paper, we investigate few-shot event argument extraction using prototypical networks, casting the task as a relation classification problem. Furthermore, we propose to enhance the relation embeddings by injecting syntactic knowledge into the model using graph convolutional networks. Our experimental results show that our proposed approach achieves strong performance on ACE 2005 in several few-shot configurations and highlight the importance of syntactic knowledge for this task.
+</blockquote>
+
+<summary> <a href="https://inria.hal.science/hal-04623011v1/document"><b>Extraction des arguments d'événements à partir de peu d'exemples par méta-apprentissage</b></a></summary>
+<p><i>Aboubacar Tuo, Romaric Besançon, Olivier Ferret, Julien Tourille. JEP-TALN, 2024.</i></p>
+
+<blockquote>
+Les méthodes d'apprentissage avec peu d'exemples pour l'extraction d'événements sont développées pour réduire le coût d'annotation des données. Cependant, la plupart des études sur cette tâche se concentrent uniquement sur la détection des déclencheurs d'événements et aucune étude n'a été proposée sur l'extraction d'arguments dans un contexte de méta-apprentissage. Dans cet article, nous étudions l'extraction d'arguments d'événements avec peu d'exemples en exploitant des réseaux prototypiques et en considérant la tâche comme un problème de classification de relations. De plus, nous proposons d'améliorer les représentations des relations en injectant des connaissances syntaxiques dans le modèle par le biais de réseaux de convolution sur les graphes. Nos évaluations montrent que cette approche obtient de bonnes performances sur ACE 2005 dans plusieurs configurations avec peu d'exemples et soulignent l'importance des connaissances syntaxiques pour cette tâche.
+</blockquote>
+
 </details>
 
 
