@@ -26,7 +26,24 @@ Les méthodes d'apprentissage avec peu d'exemples pour l'extraction d'événemen
 
 <details>
 <summary><b style="font-family: 'Arial'; color: blue; font-size: 18px;"> 2023 </b></summary>
-<!-- Ajoutez les publications de 2023 ici -->
+<details>
+<summary> <a href="https://link.springer.com/chapter/10.1007/978-3-031-08473-7_26"><b>Trigger or not Trigger: Dynamic Thresholding for Few Shot Event Detection</b></a></summary>
+<p><i>Aboubacar Tuo, Romaric Besançon, Olivier Ferret, Julien Tourille. ECIR, 2023.</i></p>
+
+<blockquote>
+Recent studies in few-shot event trigger detection from text address the task as a word sequence annotation task using prototypical networks. In this context, the classification of a word is based on the similarity of its representation to the prototypes built for each event type and for the “non-event” class (also named null class). However, the “non-event” prototype aggregates by definition a set of semantically heterogeneous words, which hurts the discrimination between trigger and non-trigger words. We address this issue by handling the detection of non-trigger words as an out-of-domain (OOD) detection problem and propose a method for dynamically setting a similarity threshold to perform this detection. Our approach increases f-score by about 10 points on average compared to the state-of-the-art methods on three datasets.
+</blockquote>
+
+<p><a href="mailto:aboubacar.tuo[at]cea[dot]fr">ask me for free version</a></p>
+</details>
+<details>
+<summary> <a href="https://aclanthology.org/2023.jeptalnrecital-international.18/"><b>Détection d’événements à partir de peu d’exemples par seuillage dynamique</b></a></summary>
+<p><i>Aboubacar Tuo, Romaric Besançon, Olivier Ferret, Julien Tourille. TALN, 2023.</i></p>
+
+<blockquote>
+Les études récentes abordent la détection d’événements à partir de peu de données comme une tâche d’annotation de séquences en utilisant des réseaux prototypiques. Dans ce contexte, elles classifient chaque mot d’une phrase donnée en fonction de leurs similarités avec des prototypes construits pour chaque type d’événement et pour la classe nulle “non-événement”. Cependant, le prototype de la classe nulle agrège par définition un ensemble de mots sémantiquement hétérogènes, ce qui nuit à la discrimination entre les mots déclencheurs et non déclencheurs. Dans cet article, nous abordons ce problème en traitant la détection des mots non-déclencheurs comme un problème de détection d’exemples “hors-domaine” et proposons une méthode pour fixer dynamiquement un seuil de similarité pour cette détection.
+</blockquote>
+</details>
 </details>
 
 <details>
