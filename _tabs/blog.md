@@ -3,6 +3,7 @@ title: Blog
 icon: fas fa-blog
 order: 5
 ---
+
 <div class="news">
   <h1>News</h1>
   <ul>
