@@ -5,7 +5,7 @@ order: 1
 ---
 
 <details>
-<summary><b style="font-family: 'Arial'; color: blue; font-size: 24px;"> 2024 </b></summary>
+<summary><b style="font-family: 'Arial'; color: blue; font-size: 18px;"> 2024 </b></summary>
 
 <summary> <a href="https://aclanthology.org/2024.naacl-srw.17/"><b>A Meta-Learning Approach for Few-Shot Event Argument Extraction</b></a></summary>
 <p><i>Aboubacar Tuo, Romaric Besançon, Olivier Ferret, Julien Tourille. JEP-TALN, 2024.</i></p>
@@ -25,12 +25,12 @@ Les méthodes d'apprentissage avec peu d'exemples pour l'extraction d'événemen
 
 
 <details>
-<summary><b style="font-family: 'Arial'; color: blue; font-size: 24px;"> 2023 </b></summary>
+<summary><b style="font-family: 'Arial'; color: blue; font-size: 18px;"> 2023 </b></summary>
 <!-- Ajoutez les publications de 2023 ici -->
 </details>
 
 <details>
-<summary><b style="font-family: 'Arial'; color: blue; font-size: 24px;"> 2022 </b></summary>
+<summary><b style="font-family: 'Arial'; color: blue; font-size: 18px;"> 2022 </b></summary>
 <details>
 <summary> <a href="https://link.springer.com/chapter/10.1007/978-3-031-08473-7_26"><b>Better Exploiting BERT for Few-shot Event Detection</b></a></summary>
 <p><i>Aboubacar Tuo, Romaric Besançon, Olivier Ferret, Julien Tourille. NLDB, 2022.</i></p>
@@ -39,7 +39,7 @@ Les méthodes d'apprentissage avec peu d'exemples pour l'extraction d'événemen
 Recent approaches for event detection rely on deep supervised learning, which requires large annotated corpora. Few-shot learning approaches, such as the meta-learning paradigm, can be used to address this issue. We focus in this paper on the use of prototypical networks with a BERT encoder for event detection. More specifically, we optimize the use of the information contained in the different layers of a pre-trained BERT model and show that simple strategies for combining BERT layers can outperform the current state-of-the-art for this task.
 </blockquote>
 
-<p><a href="mailto:aboubacar.tuo@cea.fr">ask me for free version</a></p>
+<p><a href="mailto:aboubacar.tuo[at]cea[dot]fr">ask me for free version</a></p>
 </details>
 <details>
 <summary> <a href="https://hal.archives-ouvertes.fr/hal-03701491/file/3792.pdf"><b>Mieux utiliser BERT pour la détection d’évènements à partir de peu d’exemples</b></a></summary>
