@@ -55,7 +55,6 @@ Les études récentes abordent la détection d’événements à partir de peu d
 Recent approaches for event detection rely on deep supervised learning, which requires large annotated corpora. Few-shot learning approaches, such as the meta-learning paradigm, can be used to address this issue. We focus in this paper on the use of prototypical networks with a BERT encoder for event detection. More specifically, we optimize the use of the information contained in the different layers of a pre-trained BERT model and show that simple strategies for combining BERT layers can outperform the current state-of-the-art for this task.
 </blockquote>
 
-<p><a href="mailto:aboubacar.tuo[at]cea[dot]fr">ask me for free version</a></p>
 </details>
 <details>
 <summary> <a href="https://hal.archives-ouvertes.fr/hal-03701491/file/3792.pdf"><b>Mieux utiliser BERT pour la détection d’évènements à partir de peu d’exemples</b></a></summary>
