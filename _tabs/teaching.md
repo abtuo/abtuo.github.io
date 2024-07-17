@@ -1,6 +1,7 @@
 ---
+title: Teaching
 layout: teaching
-icon: fas fa-stream
+icon: fas fa-person-chalkboard
 order: 2
 ---
 
