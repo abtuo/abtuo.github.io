@@ -12,7 +12,7 @@
 
 - type: google-scholar
   icon: fa-brands fa-google-scholar
-  #icon: "ai ai-google-scholar-square ai-3x"
+  #icon: ai ai-google-scholar-square ai-3x
   url: https://scholar.google.com/citations?user=5fE1oWwAAAAJ&hl=en
 
 # Uncomment and complete the url below to enable more contact options
