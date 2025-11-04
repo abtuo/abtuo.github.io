@@ -16,6 +16,8 @@ Welcome to my blog where I share insights about machine learning, natural langua
 
 <div class="news">
   <ul>
+    <li><span style="color: #1E90FF;"> 🎓 [2025-04-11] </span> Welcoming <strong>Tom Hodemon</strong> as research intern on <strong>Vision Language Models (VLMs)</strong></li>
+    <li><span style="color: #1E90FF;"> 🎓 [2025-04-11] </span> Welcoming <strong>Anjila Ben frej</strong> as research intern on <strong>MLOps</strong></li>
     <li><span style="color: #1E90FF;"> 📚 [2024-05-05] </span> Paper accepted at <strong>NAACL SRW 2024</strong>: "Few-Shot Event Argument Extraction Based on a Meta-Learning Approach"</li>
     <li><span style="color: #1E90FF;"> 📚 [2024-04-24] </span> Paper accepted at <strong>JEP-TALN-2024</strong>: "Extraction des arguments d'événements à partir de peu d'exemples par méta-apprentissage"</li>
     <li><span style="color: #1E90FF;"> 📣 [2024-01-25] </span> Presented research on few-shot event extraction at <strong>Journée TAL Frugal</strong></li>
@@ -29,16 +31,3 @@ Welcome to my blog where I share insights about machine learning, natural langua
 - [Deep Dive into Attention Mechanisms](/posts/attention-mechanisms-deep-dive/): From theory to implementation
 - [Practical Guide to Information Extraction](/posts/practical-guide-information-extraction/): Research to industry applications
 
-## Student Mentoring & Research Supervision 🎓
-
-### Current Research (2024)
-**Master's Thesis - Vision-Language Models**
-- Topic: "Enhancing Visual Reasoning in Vision-Language Models through Dynamic Visual Feature Selection"
-- Duration: 6 months
-- Technologies: PyTorch, Vision Transformers, CLIP
-- Focus: Developing advanced visual reasoning capabilities in multimodal systems
-
-### Research Impact
-- Guiding cutting-edge research in vision-language models
-- Contributing to the field of multimodal AI
-- Fostering innovation in visual reasoning systems

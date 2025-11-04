@@ -5,6 +5,19 @@ order: 1
 ---
 
 <details>
+<summary><b style="font-family: 'Arial'; color: blue; font-size: 18px;"> 2025 </b></summary>
+
+<summary> <a href="https://arxiv.org/abs/2507.07539"><b>CEA-LIST at CheckThat! 2025: evaluating LLMs as detectors of bias and opinion in text</b></a></summary>
+<p><i>Akram Elbouanani, Evan Dufraisse, Aboubacar Tuo, Adrian Popescu. arXiv preprint arXiv:2507.07539, 2025.</i></p>
+
+<blockquote>
+This paper presents a competitive approach to multilingual subjectivity detection using large language models (LLMs) with few-shot prompting. We participated in Task 1: Subjectivity of the CheckThat! 2025 evaluation campaign. We show that LLMs, when paired with carefully designed prompts, can match or outperform fine-tuned smaller language models (SLMs), particularly in noisy or low-quality data settings. Despite experimenting with advanced prompt engineering techniques, such as debating LLMs and various example selection strategies, we found limited benefit beyond well-crafted standard few-shot prompts. Our system achieved top rankings across multiple languages in the CheckThat! 2025 subjectivity detection task, including first place in Arabic and Polish, and top-four finishes in Italian, English, German, and multilingual tracks. Notably, our method proved especially robust on the Arabic dataset, likely due to its resilience to annotation inconsistencies. These findings highlight the effectiveness and adaptability of LLM-based few-shot learning for multilingual sentiment tasks, offering a strong alternative to traditional fine-tuning, particularly when labeled data is scarce or inconsistent.
+</blockquote>
+
+</details>
+
+
+<details>
 <summary><b style="font-family: 'Arial'; color: blue; font-size: 18px;"> 2024 </b></summary>
 
 <summary> <a href="https://aclanthology.org/2024.naacl-srw.17/"><b>A Meta-Learning Approach for Few-Shot Event Argument Extraction</b></a></summary>
