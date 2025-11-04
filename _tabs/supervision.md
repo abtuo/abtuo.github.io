@@ -11,7 +11,7 @@ order: 3
 <div style="display: flex; gap: 40px; flex-wrap: wrap; margin-bottom: 40px;">
 
 <div style="flex: 1; min-width: 300px;">
-<img src="/assets/img/supervision/example.png alt="Tom Hodemon" style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover; margin-bottom: 20px;">
+<img src="assets/img/supervision/example.png alt="Tom Hodemon" style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover; margin-bottom: 20px;">
 
 ### Tom Hodemon
 **Research Topic:** Vision Language Models (VLMs)  
